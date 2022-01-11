@@ -1,0 +1,35 @@
+/*Variable*/
+$color-one: #0097e6;
+$color-two: #33d9b2;
+$color-three: #ff5252;
+$text-color-ondark: #ffffff;
+$text-color-onlight: #2c2c54;
+
+$font-header: 'Lobster', cursive;
+$font-text: 'Lobster Two', cursive;
+/*Global*/
+*,* ::before,*::after{
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-size: 16px;
+   line-height: 1.7;
+   font-family: $font-text;
+   color: $color-one;
+}
+
+.poem-text {
+    padding: 60px;    
+}
+
+.poem-text h1 {
+    font-family: $font-header;
+}
+
+.poem-text p {
+    font-family: $font-text;
+    font-size: 20px;
+    color: $color-two;
+}
